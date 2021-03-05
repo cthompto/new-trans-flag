@@ -25,11 +25,13 @@ function setup() {
   var canvas = createCanvas(windowWidth/2, windowWidth/4);
   canvas.parent('sketch-holder');
   frameRate(60);
-  strokeWeight(0);
+  noStroke();
   background(255);
 }
 
 function draw() {
+  canvas = createCanvas(windowWidth/2, windowWidth/4);
+  canvas.parent('sketch-holder');
   if (frameCount < 180) {
   } else {
     blueBar();
