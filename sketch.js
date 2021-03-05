@@ -22,7 +22,7 @@ let b2b = 192;
 let b3b = 255;
 
 function setup() {
-  var canvas = createCanvas(400, 200);
+  var canvas = createCanvas(windowWidth/2, windowWidth/4);
   canvas.parent('sketch-holder');
   frameRate(60);
   strokeWeight(0);
@@ -41,19 +41,19 @@ function draw() {
 
 function drawFlag() {
   fill(r1,g1,b1);
-  rect(0,0,400,40);
+  rect(0,0,width,height*0.2);
   fill(r2,g2,b2);
-  rect(0,40,400,80);
+  rect(0,height*0.2,width,height*0.4);
   fill(r3,g3,b3);
-  rect(0,80,400,120);
+  rect(0,height*0.4,width,height*0.6);
   fill(r2,g2,b2);
-  rect(0,120,400,160);
+  rect(0,height*0.6,width,height*0.8);
   fill(r1,g1,b1);
-  rect(0,160,400,200);
+  rect(0,height*0.8,width,height);
   fill(0,0,0);
-  triangle(0,0,100,100,0,200);
+  triangle(0,0,width*0.25,height*0.5,0,height);
   fill(96,57,24);
-  triangle(0,50,50,100,0,150);
+  triangle(0,height*0.25,width*0.125,height*0.5,0,height*0.75);
 }
 
 function blueBar() {
