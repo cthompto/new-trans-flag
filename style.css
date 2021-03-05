@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;900&display=swap');
+
+
+
+html, body {
+  margin: 0;
+  padding: 20;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+h1 {
+  font-weight: 900;
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  font-weight: 500;
+  margin: auto;
+  text-align: center;
+  font-size: large;
+}
+
+p.disc {
+  margin: 0;
+  text-align: left;
+  font-size: medium;
+}
+
+canvas {
+  margin: auto;
+  display: block;
+}
+
+div.disc {
+  width: 400px;
+  margin: auto;
+}
