@@ -42,7 +42,7 @@ function draw() {
 
 
 function canvasSize() {
-  if (windowWidth < 600 ) {
+  if (windowWidth < 1300 ) {
     canvas = createCanvas(windowWidth*0.9, windowWidth*0.45);
   } else {
     canvas = createCanvas(windowWidth/2, windowWidth/4);
