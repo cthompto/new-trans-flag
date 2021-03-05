@@ -30,8 +30,7 @@ function setup() {
 }
 
 function draw() {
-  canvas = createCanvas(windowWidth/2, windowWidth/4);
-  canvas.parent('sketch-holder');
+  canvasSize();
   if (frameCount < 180) {
   } else {
     blueBar();
@@ -39,6 +38,16 @@ function draw() {
     whiteBar();
   }
   drawFlag();
+}
+
+
+function canvasSize() {
+  if (windowWidth < 600 ) {
+    canvas = createCanvas(windowWidth*0.9, windowWidth*0.45);
+  } else {
+    canvas = createCanvas(windowWidth/2, windowWidth/4);
+  }
+  canvas.parent('sketch-holder');
 }
 
 function drawFlag() {
