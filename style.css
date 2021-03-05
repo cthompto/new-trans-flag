@@ -24,6 +24,7 @@ p.disc {
   margin: 0;
   text-align: left;
   font-size: medium;
+  letter-spacing: 1px;
 }
 
 canvas {
@@ -32,6 +33,6 @@ canvas {
 }
 
 div.disc {
-  width: 400px;
+  width: 50%;
   margin: auto;
 }
