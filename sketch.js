@@ -1,6 +1,6 @@
 // Proposal For a New Trans Flag
 // Chelsea Thompto
-// 2020
+// 2020 v1
 
 let r1 = 124;
 let r2 = 245;
